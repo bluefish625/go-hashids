@@ -20,7 +20,7 @@ const (
 	// DefaultAlphabet is the default alphabet used by go-hashids
 	DefaultAlphabet string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
-	minAlphabetLength int     = 16
+	minAlphabetLength int     = 6
 	sepDiv            float64 = 3.5
 	guardDiv          float64 = 12.0
 )
